@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 350px;
+    padding-top: 150px;
+}
+
+.tempo {
+    margin-top: -220px;
+    font-size: 70px;
+}
+
+.areaBotoes {
+    margin-top: 100px;
+    display: flex;
+}
+
+.botoes {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.botoes:hover{
+    background-color: #013244;
+    color: white;
+    transition: all 0.70s;
+    font-weight: bolder;
+}
